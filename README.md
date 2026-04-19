@@ -20,11 +20,7 @@ Bloomy est un système IoT complet de gestion de serre agricole connectée. Il c
 [![Figma Design](https://img.shields.io/badge/Figma-Voir%20le%20prototype-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/make/DGyKfKnE46p9pNNWF9Xyeo/Smart-Greenhouse-App?fullscreen=1)
 
 ##  Architecture du Système
-
-```
 ![Architecture Système](assets/architecture.png)
-```
-
 Le système est divisé en **trois composantes principales** :
 
 | Couche | Technologies |
