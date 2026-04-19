@@ -22,30 +22,7 @@ Bloomy est un système IoT complet de gestion de serre agricole connectée. Il c
 ##  Architecture du Système
 
 ```
-┌─────────────────┐     ┌──────────────────┐     ┌─────────────────┐
-│   CAPTEURS      │     │   ESP32 WROOM    │     │  ACTIONNEURS    │
-│                 │     │                  │     │                 │
-│ • DHT11         │────▶│  WiFi + Logic    │────▶│ • Pompe         │
-│ • Sol Capactif  │     │  Automation      │     │ • Ventilateur   │
-│ • RFID RC522    │     │                  │     │ • LED           │
-└─────────────────┘     └────────┬─────────┘     │ • Servo Porte   │
-                                 │               └─────────────────┘
-                                 │ WiFi/HTTPS
-                                 ▼
-                    ┌────────────────────────┐
-                    │   Firebase Cloud       │
-                    │ • Firestore            │
-                    │ • Auth                 │
-                    │ • FCM (Push Notifs)    │
-                    └────────┬───────────────┘
-                             │
-                             ▼
-                    ┌────────────────────────┐
-                    │   App Flutter          │
-                    │ • Dashboard            │
-                    │ • Contrôle Manuel      │
-                    │ • Alertes              │
-                    └────────────────────────┘
+![Architecture Système](assets/architecture.png)
 ```
 
 Le système est divisé en **trois composantes principales** :
