@@ -109,6 +109,11 @@ bloomy/
 | Humidité sol | > 3000 (brut ADC) | Activation pompe |
 
 ---
+## 🎨 Design UI/UX
+
+> Interface conçue sur Figma avec prototype interactif complet.
+
+[![Figma Design](https://img.shields.io/badge/Figma-Voir%20le%20prototype-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/make/DGyKfKnE46p9pNNWF9Xyeo/Smart-Greenhouse-App?fullscreen=1)
 
 ## 🚀 Installation & Configuration
 
