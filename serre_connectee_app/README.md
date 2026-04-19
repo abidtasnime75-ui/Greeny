@@ -1,4 +1,4 @@
-# serre_connectee_app
+#Bloomy_app
 
 A new Flutter project.
 
