@@ -35,13 +35,13 @@ Le système est divisé en **trois composantes principales** :
 
 ## ✨ Fonctionnalités
 
-- 📊 **Surveillance en temps réel** — Température, humidité air et humidité du sol
-- 🤖 **Mode automatique** — Arrosage automatique si sol sec, ventilation si température > 30°C
-- 🕹️ **Contrôle manuel** — Activation à distance de la pompe, du ventilateur et des LEDs depuis l'app
-- 🚪 **Accès RFID** — Ouverture de la porte via badge, avec journal des entrées
-- 🔔 **Alertes push** — Notifications FCM pour les événements critiques
-- 📟 **Affichage local** — Écran LCD I2C affichant les données en direct
-- 🔐 **Authentification** — Connexion sécurisée via Firebase Auth
+-  **Surveillance en temps réel** — Température, humidité air et humidité du sol
+- **Mode automatique** — Arrosage automatique si sol sec, ventilation si température > 30°C
+-  **Contrôle manuel** — Activation à distance de la pompe, du ventilateur et des LEDs depuis l'app
+-  **Accès RFID** — Ouverture de la porte via badge, avec journal des entrées
+- **Alertes push** — Notifications FCM pour les événements critiques
+-  **Affichage local** — Écran LCD I2C affichant les données en direct
+-  **Authentification** — Connexion sécurisée via Firebase Auth
 
 ---
 
